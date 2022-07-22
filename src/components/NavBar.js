@@ -18,7 +18,7 @@ const NavBar = () => {
                   </span>
                 </a>
               </div>
-              <div className="top-3 center items-start hidden w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:items-center md:w-3/4 md:absolute lg:text-base md:bg-transparent md:p-0 md:relative md:flex">
+              <div className="top-3 center items-start hidden w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:items-center md:w-3/4  lg:text-base md:bg-transparent md:p-0 md:relative md:flex">
                 <div className="flex-col w-full h-auto overflow-hidden bg-white rounded-lg md:bg-transparent md:overflow-visible md:rounded-none md:relative md:flex md:flex-row">
                   <button
                     href="#_"
@@ -62,7 +62,7 @@ const NavBar = () => {
                     </Link>
                     <Link
                       className="inline-block w-full scroll-smooth cursor-pointer py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center"
-                      to="Contact"
+                      to="contact"
                       smooth={true}
                       duration={1000}
                     >
@@ -77,9 +77,8 @@ const NavBar = () => {
                   <div className="flex flex-col items-start scroll-smooth justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0"></div>
                 </div>
               </div>
-              <div className="absolute right-0 flex flex-col items-center items-end justify-center   cursor-pointer md:hidden hover:bg-gray-100">
-                <svg></svg>
-                <svg></svg>
+              <div className="absolute right-0 flex flex-col items-center justify-center   cursor-pointer md:hidden hover:bg-gray-100">
+  
               </div>
             </div>
           </nav>
@@ -98,7 +97,7 @@ const NavBar = () => {
             <div className="flex flex-col items-center mt-12 text-center">
               <span className="relative inline-flex w-full md:w-auto">
                 <Link
-                  to="Contact2"
+                  to="contact2"
                   smooth={true}
                   duration={1000}
                   type="button"
