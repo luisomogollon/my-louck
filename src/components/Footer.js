@@ -1,5 +1,10 @@
 import React from "react";
-import { AiOutlineLinkedin, AiFillMail } from "react-icons/ai";
+import {
+  AiOutlineLinkedin,
+  AiFillMail,
+  AiFillGithub,
+  AiFillFacebook,
+} from "react-icons/ai";
 import { FaTelegramPlane } from "react-icons/fa";
 const Footer = () => {
   return (
@@ -105,8 +110,10 @@ const Footer = () => {
                 className="w-10 h-10"
                 aria-hidden="true"
                 fill="currentColor"
-                viewBox="0 0 24 24"
-              ></svg>
+                viewBox="0 0 15 15"
+              >
+                <AiFillFacebook/>
+              </svg>
             </button>
             <a
               href="https://t.me/Luiso190"
@@ -145,8 +152,11 @@ const Footer = () => {
                 className="w-10 h-10"
                 aria-hidden="true"
                 fill="currentColor"
-                viewBox="0 0 24 24"
-              ></svg>
+                viewBox="0 0 15 15"
+              >
+                {" "}
+                <AiFillGithub />
+              </svg>
             </a>
             <a
               href="https://www.linkedin.com/in/luis-michinaux/"
