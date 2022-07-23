@@ -98,9 +98,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
+       <br/>
+       <br/>
+       <br/>
+        <p className="text- text-center text-4xl font-semibold text-gray-900 v " >Let's talk</p>
 
-        <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 justify-center overflow-hidden sm:px-6 lg:px-8">
-          <div className="flex place-content-center space-x-2 ">
+        <div className="max-w-screen-xl px-4 py-12  mx-auto space-y-8 justify-center overflow-hidden sm:px-6 lg:px-8">
+          <div className="flex place-content-center space-x-0 ">
             <button
               href="https://www.facebook.com/luis.michinaux/"
               className="text-indigo-500  hover:text-gray-500"
@@ -117,9 +121,9 @@ const Footer = () => {
             </button>
             <a
               href="https://t.me/Luiso190"
-              className="text-indigo-500 hover:text-gray-500"
+              className="text-indigo-500 space-x-1 hover:text-gray-500"
             >
-              <span className="sr-only">Telegram</span>
+              <span className="sr-only ">Telegram</span>
               <svg
                 className="w-10 h-10"
                 aria-hidden="true"
@@ -131,7 +135,7 @@ const Footer = () => {
             </a>
             <a
               href="mailto:Michinaux77@gmail.com"
-              className="text-indigo-500 hover:text-gray-500"
+              className="text-indigo-500 space-x-1 hover:text-gray-500"
             >
               <span className="sr-only">Gmail</span>
               <svg
@@ -145,7 +149,7 @@ const Footer = () => {
             </a>
             <a
               href="https://github.com/luisomogollon"
-              className="text-indigo-500 hover:text-gray-500"
+              className="text-indigo-500 space-x-1 hover:text-gray-500"
             >
               <span className="sr-only">GitHub</span>
               <svg
@@ -160,7 +164,7 @@ const Footer = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/luis-michinaux/"
-              className="text-indigo-500 hover:text-gray-500"
+              className="text-indigo-500 space-x-1 hover:text-gray-500"
             >
               <span className="sr-only">Linkedin</span>
               <svg
@@ -173,6 +177,7 @@ const Footer = () => {
                 <path></path>
               </svg>
             </a>
+            <span></span>
 
             <span />
             <section className=" scroll-smooth" id="contact2"></section>

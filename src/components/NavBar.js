@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+
 const NavBar = () => {
   return (
     <>
@@ -8,7 +9,7 @@ const NavBar = () => {
         className="w-full px-6 pb-12 antialiased bg-gradient-to-l from-indigo-900 via-sky-300 to-indigo-900"
         data-tails-scripts="//unpkg.com/alpinejs"
       >
-        <div className="mx-auto max-w-7xl">
+        <div className="mx-auto max-w-10xl">
           <nav className="" x-data="">
             <div className="container relative flex flex-wrap items-center justify-between h-24 mx-auto overflow-hidden font-medium border-b border-indigo-400 md:overflow-visible lg:justify-center sm:px-4 md:px-2 lg:px-0">
               <div className="flex items-center justify-start w-1/4 h-full pr-4">
@@ -71,9 +72,10 @@ const NavBar = () => {
                     </Link>
                     <button
                       href="#_"
-                      className="absolute top-0 left-0 hidden scroll-smooth py-2 mt-6 ml-10 mr-2 text-gray-600 lg:inline-block md:mt-0 md:ml-2 lg:mx-3 md:relative"
+                      className="absolute top-0 left-0 hidden scroll-smooth py-2 mt-6 ml-10 mr-2 text-gray-600 lg:inline-block md:mt-0 md:ml-2 lg:mx-3 md:relative "
                     ></button>
                   </div>
+                  <img class="object-center hover:object-top" src=""></img>
                   <div className="flex flex-col items-start scroll-smooth justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0"></div>
                 </div>
               </div>

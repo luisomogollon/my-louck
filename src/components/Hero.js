@@ -2,70 +2,115 @@ import React from "react";
 import { DiReact } from "react-icons/di";
 import { SiJavascript, SiHtml5 } from "react-icons/si";
 import { FaCss3 } from "react-icons/fa";
-import imgbox from "../assets/imgbox";
 
 const Hero = () => {
   return (
     <>
-    
       <section
-        className=" scroll-auto flex items-center justify-center h-  py-16 bg-gradient-to-l from-indigo-900 via-sky-300 to-indigo-900"
+        class="py-20 bg-gradient-to-r from-blue-500 via-stone-800 to-cyan-800"
         id="About"
       >
-        <div className="max-w-6xl px-20 mx-auto bg-gradient-to-l from-indigo-900 via-sky-300 to-indigo-900">
-          <div className="flex flex-col items-center lg:flex-row ">
-            <div className="flex flex-col items-start justify-center w-full h-full pr-8 mb-10 lg:mb-0 lg:w-1/2">
-              <p className="mb-20 text-base font-medium tracking-tight text-indigo-500 uppercase"></p>
-              <h2 className="text-4xl  leading-10 tracking-tight text-gray-900 sm:text-2xl sm:leading-none md:text-2xl lg:text-2xl xl:text-4xl">
-                About Me
-              </h2>
-              <p className="my-7 text- text-gray-800  font-semibold leading-6 ">
-                I am a fairly reserved person, I like the challenges of each
-                project, as well as the experience that life imposes on me,
-                makes me feel good to maintain focus and drain my Energies
-                creatively and productively. <br /> <br />I have a solid
-                foundation in React and I really like this ecosystem, I love web
-                design as a hobby, working as a Freelancer, building websites,
-                landing pages and doing some Layout.
-              </p>
-              <a
-                href="./docu.pdf "
-                target="_blank"
-                className="flex mx-20	inset-x-6 px-10 py-10 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md shadow hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo md:py-4 md:text-lg md:px-7"
-              >
-                Download Cv
-              </a>
-            </div>
-            <div className="w-full lg:w-1/2">
-              <div></div>
-              <blockquote className="flex items-center justify-between w-full col-span-1 p-6 mt-4 bg-indigo-150">
-                <div className="flex flex-col pr-10">
-                  <div className="relative pl-12">
+        <div class="container items-center max-w-6xl px-4 px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
+          <div class="flex flex-wrap items-center -mx-3">
+            <div class="order-1 w-full px-3 lg:w-1/2 lg:order-0">
+              <div class="w-full lg:max-w-md">
+                <h2 class="mb-4 text-3xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">
+                  About Me
+                </h2>
+                <p class="mb-5 font-semibold  tracking-tight text-gray-300 xl:mb-6">
+                  I am a fairly reserved person, I like the challenges of each
+                  project as a developer, as well as the experience that life
+                  imposes on me, it makes me feel good to keep focus and drain
+                  my energies creatively and productively.
+                  <br /> <br />
+                  It's a fact, I really like the react ecosystem and keeping a
+                  minimalist design in the web environments I've created
+                </p>
+                <ul>
+                  <li class="flex items-center py-2 space-x-4 xl:py-3">
                     <svg
-                      className="absolute left-0 w-10 h-10 text-indigo-500 fill-current"
+                      class="w-8 h-8 text-pink-500"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 100 125"
-                    ></svg>
-                    <p className="mt-6 italic text-sm text-gray-700 sm:text-base  font-semibold lg:text-sm ">
-                      Small achievements are as important as big ones for me,
-                      everything is a matter of discipline, organization and
-                      perseverance
-                    </p>
-                  </div>
-                  <h3 className="pl-12 mt-3 text-sm font-medium italic leading-5 text-gray-800 truncate sm:text-base  lg:text-base">
-                    Luis Michinaux
-                    <span className="mt-1 text-sm leading-5 text-gray-500 truncate">
-                      - Front End Developer
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
+                      ></path>
+                    </svg>
+                    <span class="font-medium text-gray-300 italic">
+                      I have solid foundations in javascript, React and CSS
                     </span>
-                  </h3>
-                  <p className="mt-1 text-sm leading-5 text-gray-500 truncate"></p>
-                </div>
-                <img
-                  className="flex-shrink-0 opacity-75 w-24 h-24 bg-gray-300 rounded-full"
-                  src={imgbox.img1}
-                  alt=""
-                />
-              </blockquote>
+                  </li>
+                  <li class="flex items-center py-2 space-x-4 xl:py-3">
+                    <svg
+                      class="w-8 h-8 text-yellow-500"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                      ></path>
+                    </svg>
+                    <span class="font-medium text-gray-300 italic">
+                      I can build minimalist layout, quite clean and intuitive
+                    </span>
+                  </li>
+                  <li class="flex items-center py-2 space-x-4 xl:py-3">
+                    <svg
+                      class="w-8 h-8 text-green-500"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                      ></path>
+                    </svg>
+                    <span class="font-medium text-gray-300 italic">
+                      I always try to organize, optimize, simplify the code of
+                      my apps.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div className="pt-10 px-20">
+                <a
+                  href="./docu.pdf"
+                  target="_blank"
+                  class="bg-indigo-500  hover:bg-gray-400 text-gray-100 font-bold py-2 px-6  rounded inline-flex items-center"
+                >
+                  <svg
+                    class="fill-current w-5 h-4 mr-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                  </svg>
+                  <span>Download Cv</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0">
+              <img
+                className="mx-auto sm:max-w-sm opacity-75 lg:max-w-full"
+                src="https://cdn.devdojo.com/images/november2020/feature-graphic.png"
+                alt="feature image"
+              />
             </div>
           </div>
         </div>
