@@ -51,7 +51,7 @@ const NavBar = () => {
                       {" "}
                       Skills
                     </Link>
-                    
+
                     <Link
                       className="inline-block w-full scroll-smooth cursor-pointer py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center"
                       to="Proyect"
@@ -75,13 +75,11 @@ const NavBar = () => {
                       className="absolute top-0 left-0 hidden scroll-smooth py-2 mt-6 ml-10 mr-2 text-gray-600 lg:inline-block md:mt-0 md:ml-2 lg:mx-3 md:relative "
                     ></button>
                   </div>
-                  <img class="object-center hover:object-top" src=""></img>
+
                   <div className="flex flex-col items-start scroll-smooth justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0"></div>
                 </div>
               </div>
-              <div className="absolute right-0 flex flex-col items-center justify-center   cursor-pointer md:hidden hover:bg-gray-100">
-  
-              </div>
+              <div className="absolute right-0 flex flex-col items-center justify-center   cursor-pointer md:hidden hover:bg-gray-100"></div>
             </div>
           </nav>
 
