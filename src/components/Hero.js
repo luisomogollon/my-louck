@@ -87,14 +87,14 @@ const Hero = () => {
                   </li>
                 </ul>
               </div>
-              <div className="pt-10 px-20">
+              <div className="pt-10 px-20  ">
                 <a
                   href="./docu.pdf"
                   target="_blank"
-                  className="bg-indigo-500  hover:bg-gray-400 text-gray-100 font-bold py-2 px-6  rounded inline-flex items-center"
+                  className="bg-indigo-500  hover:bg-gray-400 text-gray-100 font-bold py-3 px-20  rounded inline-flex  "
                 >
                   <svg
-                    className="fill-current w-5 h-4 mr-1"
+                    className="fill-current  w-5 h-4 mr-1"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                   >
