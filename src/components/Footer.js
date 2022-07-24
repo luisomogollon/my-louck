@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
             <div className="box-border px-4 py-8 mb-6 text-center bg-indigo-250 border border-gray-300 border-solid lg:mb-0 sm:px-4 sm:py-8 md:px-8 md:py-12 lg:px-10">
               <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-solid sm:text-3xl md:text-4xl">
-                Blog List App 
+                Blog List App
               </h3>
               <p className="mt-3 leading-7 ml-1 text-gray-900 border-0 border-solid">
                 Redux version of React Blog List App.
