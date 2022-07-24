@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       <section
-        className="py-20 bg-gradient-to-r from-blue-500 via-stone-800 to-cyan-800"
+        className="shadow-2xl py-20 bg-gradient-to-r from-blue-500 via-stone-800 to-cyan-800"
         id="About"
       >
         <div className="container items-center max-w-6xl px-4 mx-auto sm:px-20 md:px-32 lg:px-16">
@@ -87,24 +87,7 @@ const Hero = () => {
                   </li>
                 </ul>
               </div>
-              <div className="pt-10 px-20  ">
-                <a
-                  href="./docu.pdf"
-                  target="_blank"
-                  className="bg-indigo-500  hover:bg-gray-400 text-gray-100 font-bold py-3 px-20  rounded inline-flex  "
-                >
-                  <svg
-                    className="fill-current  w-5 h-4 mr-1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-                  </svg>
-                  <span>Download Cv</span>
-                </a>
-              </div>
             </div>
-
             <div className="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0">
               <img
                 className="mx-auto sm:max-w-sm opacity-75 lg:max-w-full"
@@ -115,6 +98,13 @@ const Hero = () => {
           </div>
         </div>
       </section>
+      <div className="flex items-center justify-center p-2 bg-gradient-to-r from-blue-500 via-stone-800 to-cyan-800">
+        <a href="./docu.pdf"target="_blank" class="relative px-6 py-3 font-bold  text-white group">
+          <span class="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-indigo-600 group-hover:translate-x-0 group-hover:translate-y-0"></span>
+          <span class="absolute inset-0 w-full h-full border-4 border-black"></span>
+          <span class="relative">Download Cv</span>
+        </a>
+      </div>
       <div
         className=" py-16 scroll-smooth  bg-gradient-to-l from-indigo-900 via-sky-300 to-indigo-900"
         id="Skills"
@@ -136,7 +126,7 @@ const Hero = () => {
           </p>
           <button
             href="#_"
-            className="text-indigo-500 font-bold text-lg mt-5 place-content-center flex items-center group"
+            className="text-indigo-500 font-bold text-lg  mt-5 place-content-center flex items-center group"
           >
             <svg
               className="w-5 h-5 group-hover:ml-1 transition-all  ease-out duration-200 "

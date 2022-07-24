@@ -101,15 +101,11 @@ const NavBar = () => {
                   smooth={true}
                   duration={1000}
                   type="button"
-                  className="inline-flex cursor-pointer animate-bounce items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-indigo-600 border border-transparent rounded-full md:w-auto hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600"
+                  className="inline-flex cursor-pointer animate-bounce  items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-indigo-600 border border-transparent rounded-full md:w-auto hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 "
                 >
                   Contact Me
                 </Link>
               </span>
-              <button
-                href="#_"
-                className="mt-3 text-sm text-indigo-500"
-              ></button>
             </div>
           </div>
         </div>
