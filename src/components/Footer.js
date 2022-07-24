@@ -51,10 +51,10 @@ const Footer = () => {
             </div>
             <div className="box-border px-4 py-8 mb-6 text-center bg-indigo-250 border border-gray-300 border-solid lg:mb-0 sm:px-4 sm:py-8 md:px-8 md:py-12 lg:px-10">
               <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-solid sm:text-3xl md:text-4xl">
-                Pokemon Layout
+                Blog List App Redux
               </h3>
               <p className="mt-3 leading-7 ml-1 text-gray-900 border-0 border-solid">
-                It's an easy pretty pokemon layout.
+                Redux version of React Blog List App.
                 <br /> <br /> <br />
               </p>
               <div className="flex items-center justify-center mt-6 leading-7 text-gray-900 border-0 border-solid sm:mt-8">
@@ -63,13 +63,13 @@ const Footer = () => {
                 </p>
                 <p className="box-border my-0 ml-1 mr-0 text-center border-0 border-gray-200 font-semibold italic">
                   {" "}
-                  Javascript+HTML+CSS
+                  Javascript+HTML+CSS+React+Redux
                   <span className="block"></span>
                 </p>
               </div>
               <a
                 className="inline-flex items-center  justify-center w-full py-3 mt-6 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border-b-4 border-blue-700 rounded cursor-pointer hover:text-white sm:text-base sm:mt-8 md:text-lg"
-                href="https://github.com/luisomogollon/pokemon-cart-react-redux.git"
+                href="https://github.com/luisomogollon/BlogList-App-Redux.git"
               >
                 Code
               </a>
@@ -89,19 +89,21 @@ const Footer = () => {
                   Javascrip+React <span className="block"></span>
                 </p>
               </div>
-              <button
-                className="inline-flex items-center justify-center w-full py-3 mt-6 font-sans text-sm leading-none text-center text-blue-600 no-underline bg-transparent border border-b-2 border-blue-600 rounded cursor-pointer hover:bg-blue-600 hover:border-blue-600 hover:text-white sm:text-base sm:mt-8 md:text-lg"
+              <a
+                className="inline-flex items-center justify-center w-full py-3 mt-6 font-sans text-sm leading-none text-center text-blue-600 no-underline bg-transparent border border-b-2 border-blue-600 rounded-md cursor-pointer hover:bg-blue-600 hover:border-blue-600 hover:text-white sm:text-base sm:mt-8 md:text-lg"
                 href="https://github.com/luisomogollon/countries-hook.git"
               >
-                code
-              </button>
+                Code
+              </a>
             </div>
           </div>
         </div>
-       <br/>
-       <br/>
-       <br/>
-        <p className="text- text-center text-4xl font-semibold text-gray-900 v " >Let's talk</p>
+        <br />
+        <br />
+        <br />
+        <p className="text- text-center text-4xl font-semibold text-gray-900 v ">
+          Let's talk
+        </p>
 
         <div className="max-w-screen-xl px-4 py-12  mx-auto space-y-8 justify-center overflow-hidden sm:px-6 lg:px-8">
           <div className="flex place-content-center space-x-0 ">
@@ -116,7 +118,7 @@ const Footer = () => {
                 fill="currentColor"
                 viewBox="0 0 15 15"
               >
-                <AiFillFacebook/>
+                <AiFillFacebook />
               </svg>
             </button>
             <a
