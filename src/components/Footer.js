@@ -9,15 +9,15 @@ import { FaTelegramPlane } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <section className="box-border py-8 scroll-smooth leading-7 text-gray-900 bg-gradient-to-l from-indigo-900 via-sky-300 to-indigo-900 border-solid sm:py-12 md:py-16 lg:py-24">
+      <section className="box-border py-8 scroll-smooth leading-7  text-gray-900 bg-gradient-to-l from-indigo-900 via-sky-400 to-indigo-900 border-solid sm:py-12 md:py-16 lg:py-24">
         <div className="box-border max-w-6xl px-4 pb-12 mx-auto border-solid sm:px-6 md:px-6 lg:px-4">
           <section className=" scroll-smooth" id="Proyect"></section>
           <div className="flex flex-col items-center leading-7 text-center text-gray-900">
-            <h2 className="box-border m-0 text-4xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl">
+            <h2 className="box-border m-0 text-4xl p-4 font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl">
               Project
             </h2>
 
-            <p className="box-border mt-4 text-2xl font-semibold leading-normal text-gray-700 border-solid">
+            <p className="box-border mt-4 text-2xl font-semibold leading-normal text-gray-800 border-solid">
               Some of my projects on GitHub
             </p>
           </div>
@@ -107,7 +107,7 @@ const Footer = () => {
           <div className="flex place-content-center space-x-0 ">
             <button
               href="https://www.facebook.com/luis.michinaux/"
-              className="text-indigo-500  hover:text-gray-500"
+              className="text-indigo-600  hover:text-gray-500"
             >
               <span className="sr-only">Facebook</span>
               <svg
@@ -121,7 +121,7 @@ const Footer = () => {
             </button>
             <a
               href="https://t.me/Luiso190"
-              className="text-indigo-500 space-x-1 hover:text-gray-500"
+              className="text-indigo-600 space-x-1 hover:text-gray-500"
             >
               <span className="sr-only ">Telegram</span>
               <svg
@@ -135,7 +135,7 @@ const Footer = () => {
             </a>
             <a
               href="mailto:Michinaux77@gmail.com"
-              className="text-indigo-500 space-x-1 hover:text-gray-500"
+              className="text-indigo-600 space-x-1 hover:text-gray-500"
             >
               <span className="sr-only">Gmail</span>
               <svg
@@ -149,7 +149,7 @@ const Footer = () => {
             </a>
             <a
               href="https://github.com/luisomogollon"
-              className="text-indigo-500 space-x-1 hover:text-gray-500"
+              className="text-indigo-600 space-x-1 hover:text-gray-500"
             >
               <span className="sr-only">GitHub</span>
               <svg
@@ -164,7 +164,7 @@ const Footer = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/luis-michinaux/"
-              className="text-indigo-500 space-x-1 hover:text-gray-500"
+              className="text-indigo-600 space-x-1 hover:text-gray-500"
             >
               <span className="sr-only">Linkedin</span>
               <svg

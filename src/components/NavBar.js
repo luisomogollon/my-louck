@@ -90,7 +90,7 @@ const NavBar = () => {
                 Frontend Developer
               </span>
             </h1>
-            <div className="mx-auto mt-5 text-gray-600 font-semibold md:mt-10 md:max-w-lg md:text-center lg">
+            <div className="mx-auto mt-5 text-gray-700 font-semibold md:mt-10 md:max-w-lg md:text-center lg">
               frontend developer, focused on simplifying the creation of app
               pages and passionate about interface design.
             </div>

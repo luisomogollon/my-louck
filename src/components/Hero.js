@@ -7,17 +7,17 @@ const Hero = () => {
   return (
     <>
       <section
-        className="shadow-2xl py-20 bg-gradient-to-r from-blue-500 via-stone-800 to-cyan-800"
+        className="bg-gradient-to-l from-indigo-900 via-sky-400 to-indigo-900  "
         id="About"
       >
         <div className="container items-center max-w-6xl px-4 mx-auto sm:px-20 md:px-32 lg:px-16">
           <div className="flex flex-wrap items-center -mx-3">
             <div className="order-1 w-full px-3 lg:w-1/2 lg:order-0">
               <div className="w-full lg:max-w-md">
-                <h2 className="mb-4 text-3xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">
+                <h2 className="mb-4 text-3xl p-3 font-bold leading-tight tracking-tight sm:text-4xl font-heading">
                   About Me
                 </h2>
-                <p className="mb-5 font-semibold  tracking-tight text-gray-300 xl:mb-6">
+                <p className="mb-6 font-semibold  tracking-normal text-base text-gray-900 xl:mb-6">
                   I am a fairly reserved person, I like the challenges of each
                   project as a developer, as well as the experience that life
                   imposes on me, it makes me feel good to keep focus and drain
@@ -42,7 +42,7 @@ const Hero = () => {
                         d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
                       ></path>
                     </svg>
-                    <span className="font-medium text-gray-300 italic">
+                    <span className="font-semibold text-gray-900 italic">
                       I have solid foundations in javascript, React and CSS
                     </span>
                   </li>
@@ -61,7 +61,7 @@ const Hero = () => {
                         d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
                       ></path>
                     </svg>
-                    <span className="font-medium text-gray-300 italic">
+                    <span className="font-medium text-gray-900 italic">
                       I can build minimalist layout, quite clean and intuitive
                     </span>
                   </li>
@@ -80,7 +80,7 @@ const Hero = () => {
                         d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
                       ></path>
                     </svg>
-                    <span className="font-medium text-gray-300 italic">
+                    <span className="font-medium text-gray-900 italic">
                       I always try to organize, optimize, simplify the code of
                       my apps.
                     </span>
@@ -90,7 +90,7 @@ const Hero = () => {
             </div>
             <div className="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0">
               <img
-                className="mx-auto sm:max-w-sm opacity-75 lg:max-w-full"
+                className="mx-auto sm:max-w-sm opacity-95 lg:max-w-full"
                 src="https://cdn.devdojo.com/images/november2020/feature-graphic.png"
                 alt="feature"
               />
@@ -98,11 +98,17 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <div className="flex items-center justify-center p-2 bg-gradient-to-r from-blue-500 via-stone-800 to-cyan-800">
-        <a href="./docu.pdf"target="_blank" class="relative px-6 py-3 font-bold  text-white group">
-          <span class="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-indigo-600 group-hover:translate-x-0 group-hover:translate-y-0"></span>
-          <span class="absolute inset-0 w-full h-full border-4 border-black"></span>
-          <span class="relative">Download Cv</span>
+      <div className="flex items-center  justify-center p-14 bg-gradient-to-l from-indigo-900 via-sky-400 to-indigo-900 ">
+        <a className="bg-indigo-600 hover:bg-indigo-500  text-white font-bold py-2 px-4 rounded inline-flex items-center  "href="./docu.pdf"
+        target="_blank">
+          <svg
+            className="fill-current w-4 h-4 mr-2"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+          >
+            <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+          </svg>
+          <span>Download Cv</span>
         </a>
       </div>
       <div
@@ -120,13 +126,13 @@ const Hero = () => {
           <h2 className="text-gray-900 text-4xl font-bold font-serif">
             Skills
           </h2>
-          <p className="text-gray-700   text-left font-semibold  text-xl sm:text-center max-w-lg mt-5">
+          <p className="text-gray-800   text-left font-semibold  text-xl sm:text-center max-w-lg mt-5">
             These are some of my skills, of course I am willing to learn many on
             my way ...!🙌
           </p>
           <button
             href="#_"
-            className="text-indigo-500 font-bold text-lg  mt-5 place-content-center flex items-center group"
+            className="text-indigo-600 font-bold text-lg  mt-5 place-content-center flex items-center group"
           >
             <svg
               className="w-5 h-5 group-hover:ml-1 transition-all  ease-out duration-200 "
@@ -136,22 +142,22 @@ const Hero = () => {
             ></svg>
           </button>
           <div className="flex flex-wrap justify-center sm:grid sm:grid-cols-4 md: gap-6 mt-8">
-            <div className="h-20 w-20 text-indigo-500 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200  flex items-center justify-center">
+            <div className="h-20 w-20 text-indigo-600 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200  flex items-center justify-center">
               <svg className="h-16 w-15 justify-center" viewBox="01 01 15 15">
                 <SiJavascript />
               </svg>
             </div>
-            <div className="h-20 w-20 text-indigo-500 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200  flex items-center justify-center">
+            <div className="h-20 w-20 text-indigo-600 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200  flex items-center justify-center">
               <svg className="w-15 h-15 justify-center " viewBox="00 01 15 15">
                 <DiReact />
               </svg>
             </div>
-            <div className="h-20 w-20 text-indigo-500 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex items-center justify-center">
+            <div className="h-20 w-20 text-indigo-600 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex items-center justify-center">
               <svg className="w-14 h-15 justify-center " viewBox="00 01 15 15">
                 <SiHtml5 />
               </svg>
             </div>
-            <div className="h-20 w-20 text-indigo-500 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200  flex items-center justify-center">
+            <div className="h-20 w-20 text-indigo-600 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200  flex items-center justify-center">
               <svg className="w-14 h-15 justify-center " viewBox="00 01 15 15">
                 <FaCss3 />
               </svg>
